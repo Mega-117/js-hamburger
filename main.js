@@ -9,4 +9,9 @@ menuIco.addEventListener('click',
 )
 let closeMenu = document.querySelector('div.hamburger-menu a.close');
 
+closeMenu.addEventListener('click',
+    function () {
+        menu.style.display = "none";
+    }
+)
 
